@@ -1,0 +1,27 @@
+{
+    "name": "ejen/yii2-base",
+    "description": "Yii2",
+    "keywords": ["yii2", "base"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/ejen/yii2-base",
+        "issues": "https://github.com/ejen/yii2-base/issues"
+    },
+    "authors": [
+        {
+            "name": "alexeevdv",
+            "homepage": "https://alexeevdv.ru/",
+            "email": "mail@alexeevdv.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ejen\\base\\": ""
+        }
+    }
+}
